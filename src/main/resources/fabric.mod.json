@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "xjc",
+  "version": "${version}",
+  "name": "XaeroJourneymapChat",
+  "description": "",
+  "authors": ["ARBEE"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/xjc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.arbeeco.xjc.client.XjcClient"
+    ]
+  },
+  "mixins": [
+    "xjc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
